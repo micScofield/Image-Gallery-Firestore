@@ -1,0 +1,28 @@
+.Backdrop {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.BackdropOpen {
+    display: block;
+}
+
+.BackdropClosed {
+    display: none;
+}
+
+.fa-times {
+    top: 4%;
+    right: 4%;
+    position: fixed;
+    font-size: 2rem;
+    color: #4e4e4e;
+}
+.fa-times:hover {
+    opacity: 0.8;
+}
